@@ -7,9 +7,10 @@
 
 
 while True:
-    user_number = int(input('Введите число: '))
+    user = int(input('Введите число от 0 до 10: '))
     if 0 < user_number < 10:
-        print(f'Результат: {user_number ** 2}')
+        print('Результат:', user ** 2)
         break
     else:
-        print(f'Число не верное. Диапазон допустимых значений от 0 до 10.')
+        print('Число не верное. Диапазон допустимых значений от 0 до 10.')
+
